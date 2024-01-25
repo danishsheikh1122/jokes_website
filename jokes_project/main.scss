@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(77, 255, 234, 0.55);
+    .container {
+        padding: 2rem;
+        // background-color: rebeccapurple;
+        width: 80rem;
+        height: 60rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5%;
+        .top {
+            width: 90%;
+            height: 20%;
+            background: rgba(137, 215, 217, 0.55);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .join {
+                width: 80%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+
+                // adding btn css starts
+                .button {
+                    width: 15rem;
+                    height: 5rem;
+                    cursor: pointer;
+                    // gap: 0.4rem;
+                    font-size: 1.6rem;
+                    border-radius: 30px;
+                    background: rgba(10, 43, 43, 0.55);
+                    color: #fff;
+                    border: none;
+                    text-transform: uppercase;
+                    &:hover {
+                        background: rgba(66, 181, 243, 0.55);
+                    }
+                }
+
+                .button:hover {
+                    background-size: 320%;
+                    background-position: right center;
+                }
+                // adding btn css ends
+
+                .quote {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    select {
+                        color: black;
+                        text-align: center;
+                        &:hover {
+                            border: none;
+                        }
+                        > option {
+                            border: none;
+                            &:hover {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+            div > input {
+                width: 10rem;
+            }
+        }
+        .bottom {
+            width: 90%;
+            height: 70%;
+            color: #606060;
+            text-align: center;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+                sans-serif;
+            background: rgba(42, 116, 143, 0.55);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            > img {
+                width: 100%;
+                height: 100%;
+                border-radius: 2rem;
+            }
+        }
+        .common {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            height: 50%;
+            font-size: 2.8rem;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+                sans-serif;
+            padding: 2rem;
+        }
+        .social-media-share {
+            width: 80%;
+            height: 5rem;
+            display: flex;
+            justify-content: flex-end;
+            button {
+                border-radius: 2rem;
+                padding: 1rem;
+                font-size: 2rem;
+                border: none;
+                background-color: #bcbcbc;
+                &:hover {
+                    cursor: pointer;
+                    background-color: #dadada;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(77, 255, 234, 0.55);
+}
+body .container {
+  padding: 2rem;
+  width: 80rem;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+}
+body .container .top {
+  width: 90%;
+  height: 20%;
+  background: rgba(137, 215, 217, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .top .join {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+body .container .top .join .button {
+  width: 15rem;
+  height: 5rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  border-radius: 30px;
+  background: rgba(10, 43, 43, 0.55);
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+}
+body .container .top .join .button:hover {
+  background: rgba(66, 181, 243, 0.55);
+}
+body .container .top .join .button:hover {
+  background-size: 320%;
+  background-position: right center;
+}
+body .container .top .join .quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+body .container .top .join .quote select {
+  color: black;
+  text-align: center;
+}
+body .container .top .join .quote select:hover {
+  border: none;
+}
+body .container .top .join .quote select > option {
+  border: none;
+}
+body .container .top .join .quote select > option:hover {
+  border: none;
+}
+body .container .top div > input {
+  width: 10rem;
+}
+body .container .bottom {
+  width: 90%;
+  height: 70%;
+  color: #606060;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: rgba(42, 116, 143, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+body .container .bottom > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+body .container .common {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 50%;
+  font-size: 2.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 2rem;
+}
+body .container .social-media-share {
+  width: 80%;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+body .container .social-media-share button {
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  border: none;
+  background-color: #bcbcbc;
+}
+body .container .social-media-share button:hover {
+  cursor: pointer;
+  background-color: #dadada;
+}/*# sourceMappingURL=main.css.map */

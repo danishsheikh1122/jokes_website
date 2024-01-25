@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body onload="current_elem('joke')">
+    <div class="container">
+        <div class="top">
+            <div class="join">
+                <div class="joke">
+                    <input type="button" class="button" value="jokes" onclick="current_elem(this.value)">
+                </div>
+                <div class="quote">
+                    <input type="button" class="button" value="quotes" onclick="current_elem(this.value)">
+                    <select name="" id="select" class="button" onchange="category_selected()">
+                        <option selected disabled value="all">categories</option>
+                    </select>
+                </div>
+                <div class="meme">
+                    <input type="button" class="button" value="memes" onclick="current_elem(this.value)">
+                </div>
+            </div>
+        </div>
+        <div class="bottom"></div>
+        <div class="social-media-share">
+            <button type="submit" id="social_media_share" onclick="social_media_share()">
+                share on twitter
+                <i class="bi bi-twitter-x"></i>
+            </button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
